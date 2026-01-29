@@ -1,0 +1,11 @@
+#first {
+    color: blue;
+}
+
+.darker {
+    color: rgb(57, 143, 146);
+}
+
+main p {
+    color: blueviolet;
+}
