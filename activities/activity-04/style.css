@@ -1,0 +1,28 @@
+.blue {
+    color: rgb(255, 242, 127);
+}
+
+.fontsize {
+    font-size: x-large;
+}
+
+.body {
+    background-color: highlight;
+    color: black;
+    font-family: 'Times New Roman', Times, serify;
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: rgb(114, 225, 240);
+}
+
+.muted {
+    color: rgba(61, 5, 31, 0.986);
+    font-size: 0.9rem;
+}
+
+span.important-text {
+    color: rgb(151, 10, 10);
+    font-weight: bold;
+}
