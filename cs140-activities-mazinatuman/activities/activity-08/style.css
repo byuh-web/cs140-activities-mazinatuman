@@ -25,3 +25,7 @@ header p {
 footer {
     background-color: rgb(0, 204, 255);
 }
+
+li {
+    list-style-image: url('favicon.ico');
+}
