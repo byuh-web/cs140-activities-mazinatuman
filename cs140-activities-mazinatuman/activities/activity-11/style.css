@@ -1,0 +1,26 @@
+.box {
+
+    background-color: rgb(129, 186, 183);
+
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0cap;
+    grid-template: 100px 200px / 1fr 2fr;
+
+}
+
+.parent {
+    background-color: ghostwhite;
+
+}
+
+
+div {
+    padding: .5rem;
+}
+
+div {
+    background-color: cornflowerblue;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
