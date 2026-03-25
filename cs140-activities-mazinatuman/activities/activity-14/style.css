@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #095713d3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background: #03246960;
+    color: rgba(0, 0, 3, 0.89);
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid #08914c;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+p label {
+    width: 150px;
+}
+
+input,
+select,
+textarea {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+}
+
+p input[type="radio"],
+p input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+p label:has(input[type="radio"]),
+p label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    width: auto;
+    gap: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 600px) {
+
+    p {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    p label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+}

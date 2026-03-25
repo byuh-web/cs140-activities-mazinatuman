@@ -5,43 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Contact Form</h2>
 
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br></br>
+    <header>
+        <h1>Major form Controls </h1>
+    </header>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+    <main>
 
-        <p>Gender:</p>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br><br>
+        <form>
+            <fieldset>
+                <legend>Personal Informations</legend>
 
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br><br>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br></br>
+                </p>
 
-        <p>Skills:</p>
-        <input type="checkbox" id="html" name="skills" value="HTML">
-        <label for="html">HTML</label><br><br>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br></br>
 
+                    <label for="password">Enter Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                </p>
 
-        <input type="checkbox" id="css" name="skills" value="CSS">
-        <label for="css">CSS</label><br>
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob"><br>
+                </p>
 
-        <input type="checkbox" id="js" name="skills" value="JavaScript">
-        <label for="js">JavaScript</label><br><br>
+                <p>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Male</label>
+                </p>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+            </fieldset>
 
-        <input type="submit" value="Submit">
+            <br><br>
 
+            <fieldset>
+                <legend>Additional Informations</legend>
 
-    </form>
+                <p>
+                <p>Favourite Color:</p>
+                <input type="checkbox" id="blue" name="Color" value="blue">
+                <label for="blue">Blue</label><br>
+
+                <input type="checkbox" id="lavender" name="Color" value="lavender">
+                <label for="lavender">Lavender Purple</label><br><br>
+
+                </p>
+
+                <p>
+                <p>Describe a little about youself:</p>
+                <label for="message">About Me:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+                </p>
+
+                <p>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">--Select--</option>
+                        <option value="png">Papua New Guinea</option>
+                        <option value="fj">Fiji</option>
+                        <option value="si">Solomon Islands</option>
+                        <option value="van">Vanuatu</option>
+                    </select>
+                </p>
+
+                <br></br>
+
+                <p>
+                    <label>
+                        <input type="checkbox" required> I agree to the terms
+                    </label>
+                </p>
+
+            </fieldset>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <br></br>
+
+    </main>
+
+    <footer>&copy;Mazina Tuman</footer>
+
 </body>
 
 </html>
