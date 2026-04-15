@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <header>
+        <h1>Support</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Homepage</a></li>
+            <li><a href="alexandra.html">The Queen Alexandera's birdwing butterfly</a></li>
+            <li><a href="blacksnake.html">Papuan Blacksnake</a></li>
+            <li><a href="kangroo.html">Tree kangaroo</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="support.html">Support</a></li>
+            <ul>
+    </nav>
+
+    <main>If you want to help contribute to the conservation the native species In Papua New Guinea that are about to be
+        extinct, join us and fill the form below to volunteer.</p>
+        <form id="myForm" action="/submit_page" method="GET">
+            <fieldset>
+                <legend>Personal Informations</legend>
+
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob"><br>
+                </p>
+
+                <p>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>contact Details</legend>
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                </p>
+
+                <p>
+                    <label for="contact">Mobile Phone:</label>
+                    <input type="text" id="contact" name="contact">
+                    <br>
+                </p>
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+                <legend>Wildlife Care</legend>
+
+                <p>
+                    <label for="country">Species of Interest:</label>
+                    <select id="country" name="country">
+                        <option value="">--Select--</option>
+                        <option value="png">Alexandera Birdwing Butterfly</option>
+                        <option value="fj">Papuan Blacksnake</option>
+                        <option value="si">Tree Kangaroo</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="country">Area of Interest:</label>
+                    <select id="country" name="country">
+                        <option value="">--Select--</option>
+                        <option value="wld">Wildlife Conservation</option>
+                        <option value="env">Environmental Conservation</option>
+                        <option value="fun">Fundraising</option>
+                        <option value="com">Community Outrich</option>
+                    </select>
+                </p>
+
+                <p>
+                <p>Why do you want to volunteer?</p>
+                <label for="message">Answer:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+                </p>
+
+                <br>
+                <fieldset>
+                    <p>
+                        <label>
+                            <input type="checkbox" required> I consent to the collection of my information for the
+                            purpose
+                            of participating in wildlife conservation.
+                        </label>
+                    </p>
+                </fieldset>
+
+            </fieldset>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        <br>
+    </main>
+
+    <footer>&copy;Mazina Tuman 2026</footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
